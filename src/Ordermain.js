@@ -46,7 +46,7 @@ const Ordermain = () => {
                                             
                                                 {
                                                     items.map((value) => {
-                                                       // console.log(value)
+                                                        console.log(value.image)
                                                         return(
                                                             <div key={value.id} className="item1 col-12 col-md-6 col-lg-6 col-xl-4 my-5">
                                                             <div className="row Item-inside">  
