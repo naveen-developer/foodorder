@@ -3,6 +3,7 @@ import Menu from './Menu';
 
 const allCartValues = [...new Set(Menu.map((values) => values.category)), 'all'];
 //console.log(allCartValues);
+console.log(process.env.PUBLIC_URL + '/yourPathHere.jpg');
 
 const Ordermain = () => {
     const [items, setItems] = useState(Menu);
@@ -41,7 +42,7 @@ const Ordermain = () => {
                         <div className="row my-5">                            
                                                 {
                                                     items.map((value) => {
-                                                       // console.log(value)
+                                                        console.log(value.image)
                                                         return(
                                                             <div key={value.id} className="item1 col-12 col-md-6 col-lg-6 col-xl-4 my-5">
                                                             <div className="row Item-inside">  
