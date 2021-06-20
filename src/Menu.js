@@ -69,7 +69,7 @@ const Menu = [
        name:"samaso",
        category: "evening",
        price: "10₹",
-       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
+       description: 'Lorem ipsum dolor sit1 amet consectetur adipisicing elit. '
    },
 ];
 
