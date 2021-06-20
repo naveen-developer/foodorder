@@ -47,7 +47,7 @@ const Ordermain = () => {
                                                             <div key={value.id} className="item1 col-12 col-md-6 col-lg-6 col-xl-4 my-5">
                                                             <div className="row Item-inside">  
                                                             <div className="col-12 col-md-12 col-lg-4 img-div">
-                                                                <img src={process.env.PUBLIC_URL + "/" +value.image} alt={value.name} className="img-fluid"/>
+                                                                <img src={process.env.PUBLIC_URL + "/Images/" +value.image} alt={value.name} className="img-fluid"/>
                                                             </div>
             
                                                             <div className="col-12 col-md-12 col-lg-8">
