@@ -3,6 +3,7 @@ import Menu from './Menu';
 
 const allCartValues = [...new Set(Menu.map((values) => values.category)), 'all'];
 //console.log(allCartValues);
+console.log(process.env.PUBLIC_URL + '/yourPathHere.jpg');
 
 const Ordermain = () => {
     const [items, setItems] = useState(Menu);
